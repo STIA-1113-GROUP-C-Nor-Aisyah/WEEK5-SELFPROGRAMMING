@@ -1,0 +1,15 @@
+package selfProgrmming;
+
+public class IfStatement2False {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if (false) {
+			System.out.println("Inside the if statement");
+			System.out.println("Inside the if statement");
+		}
+	
+		System.out.println("Outside the if statement");
+	}
+
+}
