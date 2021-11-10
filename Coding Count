@@ -1,0 +1,15 @@
+package selfProgrmming;
+
+public class Count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double y = 15.0;
+		double x = 25.0;
+		
+		if (y != x);    //!= is not equal to
+		System.out.println("Result : y not equal x");
+
+	}
+
+}
