@@ -1,0 +1,14 @@
+package selfProgrmming;
+
+public class IfStatementTrue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if (true)
+			System.out.println("Inside the if statement");
+		
+		System.out.println("Outside the if statement");
+
+	}
+
+}
