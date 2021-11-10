@@ -8,7 +8,7 @@ public class NumberIf {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter a number: ");
+		System.out.println("y = ");
 		int y = sc.nextInt();
 		
 		if (y > 0)
