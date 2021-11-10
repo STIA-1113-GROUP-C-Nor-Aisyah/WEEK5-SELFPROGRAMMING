@@ -1,0 +1,22 @@
+package selfProgrmming;
+
+import java.util.Scanner;
+
+public class BlockStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("The amount is ");
+		int amount = sc.nextInt();
+		
+		System.out.println("The balance is ");
+		int balance = sc.nextInt();
+		
+		if (amount <= balance)
+			balance = balance - amount;
+		System.out.println("Acct new balance = " + balance);
+	}
+
+}
