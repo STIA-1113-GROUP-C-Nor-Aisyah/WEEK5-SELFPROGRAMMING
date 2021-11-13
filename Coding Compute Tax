@@ -8,7 +8,7 @@ public class ComputeTax {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner (System.in);
 		
-		System.out.print("(1-single filer, 2-married jointly or qualifying widow(er), 3-married separately, 4-head of household) Enter the filing status:" );
+		System.out.print("(0-single filer, 1-married jointly or qualifying widow(er), 2-married separately, 3-head of household) Enter the filing status:" );
 		int status = sc.nextInt();
 		
 		System.out.println("Enter the taxable income: ");
