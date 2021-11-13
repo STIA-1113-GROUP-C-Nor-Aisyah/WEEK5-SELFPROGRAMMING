@@ -1,0 +1,30 @@
+package selfProgrmming;
+
+import java.util.Scanner;
+
+public class NestedIfStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter i: ");
+		int i = sc.nextInt();
+		System.out.println("Enter k: ");
+		int k = sc.nextInt();
+		System.out.println("Enter j: ");
+		int j = sc.nextInt();
+		
+		if (i > k) {
+			if (j > k)
+				System.out.println ("i and j are greater than k");
+		}
+		else
+			System.out.println("i is less than or equal to k");
+		
+		
+
+	}
+
+}
